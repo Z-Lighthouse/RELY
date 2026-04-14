@@ -18,6 +18,7 @@ RELY/
 │   ├──synthesis/         # Heterogeneous Synthesis Flow Scripts (RELY & Baselines)
 ├── benchmarks/                 # RTL design files
 
+
 ## RELY Logic Synthesis Workflow
 
 This document outlines the steps involved in processing and synthesizing RTL code for FPGA designs. It includes the use of various components such as resource-aware evaluation, logic isolation, and synthesis, ultimately generating a final optimized design.
