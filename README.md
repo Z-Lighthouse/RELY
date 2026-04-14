@@ -32,7 +32,7 @@ RELY/
    - Based on the results of logic isolation, use `src/synthesis/make_black_box.py` to add **black box annotations** to the module and prepare the code for subsequent dual-stream synthesis. The annotations are essential for marking specialized modules for synthesis tools like Vivado.
 
 ### 4. **Synthesis**
-   - For **specialized primitives** (DSP modules), call **Lakeroad** (linked format required for integration) for compilation and synthesis.
+   - For **specialized primitives** (DSP modules), call [Lakeroad](https://github.com/gussmith23/lakeroad) for compilation and synthesis.
    - For **generic primitive logic**, use `src/synthesis/run_synthesis_batch_without_dsp.py` to synthesize the logic.
 
 ### 5. **Final Logic Synthesis and Connection**
